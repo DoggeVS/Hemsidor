@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+    <header>
+        <h1>Monkey Enthusiasts</h1>
+    </header>
+
+    <nav>
+        <ul class="grid-item navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Monkey Gallery</a></li>
+            <li><a href="info.html">Fun Facts</a></li>
+        </ul>
+    </nav>
+
+    <main class="grid-container">
+        <section class="grid-item gallery">
+            <img src="./img/gallery/blackmonkey_320.jpg"
+                srcset="./img/gallery/blackmonkey_320.jpg 1200w, ./img/gallery/blackmonkey_160.jpg 630w"
+                alt="Black fur monkey of larger size" sizes="(max-width: 1057px) 630px, 1200px">
+            <img src="./img/gallery/monkey_320.jpg"
+                srcset="./img/gallery/monkey_320.jpg 1200w,./img/gallery/monkey_160.jpg 630w"
+                alt="White fur monkey of small size" sizes="(max-width: 1057px) 630px, 1200px">
+            <img src="./img/gallery/proboscis_320.jpg"
+                srcset="./img/gallery/proboscis_320.jpg 1200w, ./img/gallery/proboscis_160.jpg 630w"
+                alt="A proboscis monkey with a elongated nose" sizes="(max-width: 1057px) 630px, 1200px">
+        </section>
+    </main>
+
+    <footer class="grid-item footer">
+        <p>Author: Douglas Holmberg</p>
+        <p>Mail: <a href="mailto:douglas.holmberg.edu@rattvik.se">douglas.holmberg.edu@rattvik.se</a></p>
+    </footer>
+</body>
+
+</html>
