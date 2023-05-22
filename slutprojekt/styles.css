@@ -126,7 +126,7 @@ footer {
     padding: 1em;
 }
 
-.flex-item {
+.grid-item {
     flex: 1;
     padding: 1em;
 }
@@ -135,7 +135,7 @@ footer {
     flex-direction: column;
 }
 
-.flex-item header {
+.grid-item header {
     align-content: flex-end;
 }
 /* Media queries flex */
